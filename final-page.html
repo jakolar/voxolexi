@@ -34,9 +34,24 @@
         		</div>
         	
 	       </div>
+
+
 			<div class="row"> 
 			<div class="alert alert-warning col-lg-12 text-center" role="alert">
-  					<h2>Alexa, ask Voice Lexicon to play Dog Fog</h2>
+  					<h2>Alexa, ask Voice Lexicon to play
+
+						<script>
+
+							let urlParams = new URLSearchParams(window.location.search);
+							let fid = urlParams.get('q');
+
+							// console.log(fid);
+
+							document.writeln(fid);
+
+						</script>
+
+					</h2>
 			</div>
 			</div>
 
